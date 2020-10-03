@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de compras</title>
+        <link rel="stylesheet" href="estilo.css">
+        
+    </head>
+    <body>
+        <div id="comandos">
+            <h1>Lista de Compras</h1>
+
+            <input type="text" size="40" placeholder="Digite seu item aqui" id="entrada">
+            <button onclick="inserir()">Inserir</button>
+            <button onclick="remover()">Remover</button>
+            <button onclick="limpar()">Limpar</button>
+            <button onclick="listar()">Listar</button>
+        </div>
+
+        <div id="listagem">
+            <ul id="lista"></ul>
+        </div>
+        <script src="ListaDeCompras.js"></script>
+    </body>
+</html>

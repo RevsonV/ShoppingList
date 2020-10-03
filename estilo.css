@@ -1,0 +1,35 @@
+h1 {
+    padding-top: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 70px;
+    line-height: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+#comandos {
+    background-color: dodgerblue;
+    width: 350px;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#listagem {
+    background-color: #bbb7b7fb;
+    width: 350px;
+    margin: auto;
+    height: fit-content;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
